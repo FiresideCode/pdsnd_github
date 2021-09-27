@@ -29,7 +29,8 @@ def get_filters():
     # get user input for month (all, january, february, ... , june)
     while True:
         month = input("\nSecondly, would you like to view data for January, February, March, April, May, June, or All? \n")
-        if month.lower() not in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
+        month = month.strip().lower()
+        if month not in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
             print("Invalid month choosen")
         else:
             break
@@ -39,7 +40,8 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         day = input("\nFinally, what day of the week are interested in: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or All? \n")
-        if day.lower() not in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
+        day = day.strip().lower()
+        if day not in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
             print("Invalid day choosen")
         else:
             break
