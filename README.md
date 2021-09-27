@@ -7,7 +7,7 @@ September 27, 2021
 Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This project is a deep analysis into the way customers use Bikeshare services in three US cities - Chicago, New York City, and Washington. It was performed using two popular Python modules, Numpy and Pandas.
 
 ### Files used
 Include the files used
