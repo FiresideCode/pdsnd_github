@@ -10,7 +10,12 @@ Explore US Bikeshare Data
 This project is a deep analysis into the way customers use Bikeshare services in three US cities - Chicago, New York City, and Washington. It was performed using two popular Python modules, Numpy and Pandas.
 
 ### Files used
-Include the files used
+The files used includes:
+1. bikeshare.py
+2. chicago.csv
+3. new_york_city.csv
+4. washington.csv
+5. readme.txt
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
