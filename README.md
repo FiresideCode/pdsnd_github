@@ -18,5 +18,5 @@ The files used includes:
 5. readme.txt
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+There were numerous resources i consulted during the project. Top on the list is Udacity Knowledge Base Mentors Help. My utmost appreciation goes to the mentors that respond to almost every question asked by students, as they journey through this course.
 
